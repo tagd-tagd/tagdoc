@@ -2,7 +2,7 @@
 declare -r EDITOR=nano
 declare -r EDIT_KEYWORD=edit
 declare -r LIST_KEYWORD=list
-declare -i COLOR=1
+declare -i COLOR=1 #0
 declare -r CONF="${0%.*}.conf"
 declare -r SCR="${0##*/}"
 declare -r AWK=$(which awk)
